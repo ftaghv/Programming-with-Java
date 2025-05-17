@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CS 145</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CTD Summer Academic Camp &mdash; Summerrr 2025</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active" id="homeNav">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item" id="scheduleNav">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item" id="logisticsNav">
+            <a class="nav-link" href="#logistics">Logistics</a>
+          </li>
+          <li class="nav-item" id="projectsNav">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item" id="staffNav">
+            <a class="nav-link" href="#staff">Staff</a>
+          </li>
+          <li class="nav-item dropdown" id="teachingNav">
+            <a class="nav-link dropdown-toggle" href="#" id="teachingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teaching
+            </a>
+            <div class="dropdown-menu" aria-labelledby="teachingDropdown">
+              <a class="dropdown-item" href="cs145/index.html" target="_blank">Machine Learning fekjflekjflkejgls</a>
+              <a class="dropdown-item" href="cs101/index.html" target="_blank">Programming with Java</a>
+              <a class="dropdown-item" href="mlcourse/index.html" target="_blank">Programming with python</a>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-purple py-3" style="background-color: #4E2A84;">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-5 text-white mt-5 mb-2" style="color: #4E2A84;">Machine Learning Seminar</h1>
+          <p class="lead mb-4 text-white-50" style="color: rgba(78, 42, 132, 0.5);">Introduction to machine learning and its applications.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row section" id="home">
+      <div class="col-md-8">
+        <h2>Course Overview</h2>
+        <hr>
+        <p>This course introduces students to the fundamental concepts and techniques of machine learning.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Key Dates</h2>
+        <hr>
+        <address>
+          <strong>Lectures: Monday-Friday</strong>
+          <br>9:00 AM - 3:00 PM
+          <br>
+          <br>
+        </address>
+      </div>
+    </div>
+
+    <div class="row section" id="schedule">
+      <div class="col-md-12">
+        <h2>Schedule</h2>
+        <table id="scheduleTable">
+          <tbody>
+            <tr>
+              <th id="eventCol">Event</th>
+              <th id="dateCol">Date</th>
+              <th>Description</th>
+              <th>Course Materials</th>
+            </tr>
+            <tr>
+              <td>Lecture 1</td>
+              <td>6/30 Mon</td>
+              <td>
+                <b>Introduction</b>
+                <br><i>Applications & History of AI</i>
+                <br><i>What is Machine Learning?</i>
+                <br><i>Linear Algebra (vectors, matrices)</i>
+                <br><i>Calculus (partial derivatives, chain rule)</i>
+                <br><i>Probability and Statistics (distributions, Bayes theorem)</i>
+                <br><i>Terminology</i>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 2</td>
+              <td>7/1 Tu</td>
+              <td>
+                <b>Supervised Learning: Regression</b>
+                <br><i>Linear Regression</i>
+                <!-- <br>HW: 6a, 6e -->
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 3</td>
+              <td>7/2 Wed</td>
+              <td>
+                <b>Supervised Learning: Classification</b>
+                <br><i>Logistic Regression</i>
+                <br><i>K-Nearest Neighbor (KNN)</i>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 4</td>
+              <td>7/3 Thur</td>
+              <td>
+                <b>Supervised Learning: Classification</b>
+                <br><i>Naïve Bayes</i>
+                <br><i>Decision Tree</i>
+                <br><i>Random Forest</i>
+                <br><i>Evaluation Metrics (Accuracy, Precision, Recall, F1-score)</i>
+                <!-- <br>HW: 6d, 6g, lab 2 -->
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 5</td>
+              <td>7/4 Frid</td>
+              <td>
+                <b>Unsupervised Learning: Clustering</b>
+                <br><i>K-means</i>
+                <br><i>Overfitting & Underfitting</i>
+                <br><i>Bias & Variance</i>
+                <br><i>Week 1 - Review</i>
+                <!-- <br>HW: 6d, 6g, lab 2 -->
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 6</td>
+              <td>7/7 Mon</td>
+              <td>
+                <b>Perceptron</b>
+                <br><i>Perceptron Training Algorithm (PTA)</i>
+                <br><i>Logic gate with Perceptron & The XOR problem</i>
+                <!-- <br>HW: 6b, 6c, 6f, lab 1 -->
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 7</td>
+              <td>7/8 Tu</td>
+              <td>
+                <b>Neural Networks</b>
+                <br><i>Backpropagation</i>
+                <br><i>Optimizer: Gradient descent</i>
+                <br><i>Loss Function: Cross Entropy</i>
+                <br><i>Activation Functions</i>
+                <!-- <br>HW: 6b, 6c, 6f, lab 1 -->
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 8</td>
+              <td>7/9 Wed</td>
+              <td>
+                <b>Convolutional Neural Networks (CNNs)</b>
+                <br><i>Convolution, Padding, Stride, Pooling</i>
+                <br><i>CNN Architectures (AlexNet, VGG, ResNet)</i>
+                <br><i>Transfer learning</i>
+                <br><i>Data Augmentation</i>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 9</td>
+              <td>7/10 Thur</td>
+              <td>
+                <b>Object Detection & Image Segmentation</b>
+                <br><i>Single-stage detectors</i>
+                <br><i>Two-stage detectors</i>
+                <br><i>Semantic/Instance/Panoptic segmentation</i>
+                <!-- <br>HW: 3c, 3d -->
+              </td>
+              <td>
+                [<a href="https://arxiv.org/abs/1311.2524" download="">R-CNN</a>, <a href="https://arxiv.org/abs/1504.08083" download="">Fast R-CNN</a>, <a href="https://arxiv.org/abs/1506.01497" download="">Faster R-CNN</a>, <a href="https://arxiv.org/abs/1506.02640" download="">YOLO</a>]
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 10</td>
+              <td>17/11 Frid</td>
+              <td>
+                <b>Ensemble Methods</b>
+                <br><i>Bagging, Boosting, Stacking</i>
+                <br><i>Random Forest</i>
+                <br><i>Week 2 - Review</i>
+                <!-- <br>HW: 3c, 3d -->
+              </td>
+              <td>
+            </tr>
+            <tr>
+              <td>Lecture 11</td>
+              <td>7/14 Mon</td>
+              <td>
+                <b>Word Embeddings</b>
+                <br><i>Word2vec</i>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>Lecture 12</td>
+              <td>7/15 Tu</td>
+              <td>
+                <b>How to Read & Write a Research Paper?</b>
+                <br><i>Top tier Conferences</i>
+              </td>
+              <td>
+            </tr> 
+            <tr>
+              <td>Lecture 13</td>
+              <td>7/16 Wed</td>
+              <td>
+                <b>Work on Poster Prsentation</b>
+              </td>
+              <td>
+            </tr> 
+            <tr>
+              <td>Lecture 14</td>
+              <td>7/17 Thurs</td>
+              <td>
+                <b>Work on Poster Prsentation</b>
+              </td>
+              <td>
+            </tr> 
+            <tr>
+              <td>Lecture 15</td>
+              <td>7/18 Frid</td>
+              <td>
+                <b>Final Exam & Classroom/EXPO with parents</b>
+              </td>
+              <td>
+            </tr> 
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row section" id="logistics">
+      <div class="col-md-12">
+        <h2 >Course Logistics and Policies</h2>
+        <hr>
+        <p><b>Prerequisites</b> Linear Algebra, Probability & Statistics, Calculus and Python</p>
+
+        <p><b>Grading</b></p>
+
+        <p>
+          <b>Homeworks</b> Students will complete one homework assignment after each class session, for a total of 11 assignments. Each homework will focus on the concepts covered that day and will include both theoretical questions and hands-on coding exercises.</b>
+
+
+
+          <!-- You can access the homeworks through <a href="http://www.newgradiance.com/services">Gradiance</a>
+          by creating an account (if you don't already have one) then signing
+          up for class token <b>E68759F1</b>. Once you have joined the class, navigate
+          to the Homeworks section on the left. <b>NOTE:</b> when we write "lab"
+          we indicate that you should do the corresponding lab found in the "Lab Projects" tab,
+          instead of the Homework tab. -->
+        </p>
+
+        <b>Exam Dates</b>
+        <ul>
+          <li>
+            Final: Friday, July 18th from 9:15-11:00 a.m.
+          </li>
+        </ul>
+
+        <p>
+          <b>Exam Notes Sheet</b> The exam is open book and open note. You can use anything we've covered in class, but you are not allowed to use any AI tools. The exam is meant to check your own understanding of the material.
+
+
+        <!-- <p>
+        <b>Contacting Course Staff</b> Please use Piazza for public questions. To privately reach the instructors
+        you can either make a private Piazza post or send an email to:
+        <br><a href = "mailto: cs145-aut1819-staff@lists.stanford.edu">cs145-aut1819-staff@lists.stanford.edu</a>
+      </p> -->
+
+      </div>
+
+    </div>
+
+    <div class="row section" id="projects" style="padding-top: 60px;">
+      <div class="col-md-12">
+        <h2>Projects</h2>
+        <hr>
+        <p>
+          <b>Group Size</b> 
+        </p>
+
+        <p>
+          <b>Project Submissions</b>
+
+        </p>
+
+      </div>
+
+    </div>
+
+<div class="row section" id="staff">
+  <div class="col-md-12">
+    <h2>Staff</h2>
+    <hr>
+    <div class="row text-center">
+      
+      <!-- Instructor -->
+      <div class="col-md-4">
+        <h4>Instructor</h4>
+        <img src="img/Fatemeh.jpeg" alt="Fatemeh Taghvaei" class="rounded-circle" style="width:100px; height:100px;">
+        <div>Fatemeh Taghvaei</div>
+      </div>
+
+      <!-- Teaching Assistants -->
+      <div class="col-md-8">
+        <h4>Teaching Assistants</h4>
+        <div class="d-flex justify-content-center">
+          <div style="margin-right: 30px;">
+            <img src="" alt="" class="rounded-circle" style="width:100px; height:100px;">
+            <div></div>
+          </div>
+          <div>
+            <img src="" alt="" class="rounded-circle" style="width:100px; height:100px;">
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+
+
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Stanford University 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
